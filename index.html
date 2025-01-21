@@ -1,20 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
   <head>
-    <title>Home</title>
+    <title>Hjem</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
-
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+    <header>
+      <nav>
+        <ul>
+          <li>Hjem</li>
+          <li>Kontakt</li>
+          <li>Om oss</li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
-      <h1>Home page</h1>
+      <section class="heroContainer">
+        <img
+          class="heroImg"
+          src="https://images.unsplash.com/photo-1736794781970-ae55b6e3a13e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+
+        <div class="heroText">
+          <h1>My trip</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, est
+            dignissimos labore at placeat quae mollitia eveniet dolores
+            perspiciatis velit, magnam nemo quaerat quod nesciunt? Cumque quas
+            architecto placeat consectetur.
+          </p>
+          <button class="CTAbutton">Kontakt oss</button>
+        </div>
+      </section>
+
+      <!-- 
+      <section class="mainContainer">
+        <div class="container"></div>
+
+        <div class="container"></div>
+
+        <div class="container"></div>
+      </section>
+      -->
     </main>
+    <footer>
+      <p id="footerCredit">Laget av Julie</p>
+    </footer>
   </body>
 </html>
